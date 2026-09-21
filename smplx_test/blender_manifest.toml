@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+
+id = "smplx_blender_addon"
+version = "1.0.3"
+name = "SMPL-X for Blender"
+tagline = "SMPL-X/SMPL+H body models, shape/pose/animation/export tools"
+maintainer = "Joachim Tesch, Max Planck Institute for Intelligent Systems <smplx-blender@tue.mpg.de>"
+type = "add-on"
+
+website = "https://smpl-x.is.tue.mpg.de/"
+
+tags = ["Animation", "Import-Export", "Rigging"]
+
+blender_version_min = "4.5.0"
+
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+
+copyright = [
+  "2026 Max Planck Institute for Intelligent Systems",
+]
+
+[permissions]
+files = "Import pose/animation data, export FBX/Alembic data"
